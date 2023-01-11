@@ -1,0 +1,82 @@
+.itemPage2 {
+    display: flex;
+    flex-direction: column;
+}
+.itemPage2 ._cinema-ctn {
+  height: 60vh;
+  background-color: #191919c7;
+  width: 100%;
+  display: flex;
+  margin-bottom: 6vh;
+}
+.itemPage2 ._cinema-ctn ._blank {
+  width: 25%;
+}
+.itemPage2 ._cinema-ctn ._img-ctn {
+  width: 50%;
+  /* background-color: crimson; */
+  display: flex;
+  justify-content: center;
+}
+.itemPage2 ._cinema-ctn ._img-ctn ._img{
+  /* width: 100%; */
+  height: 100%;
+}
+
+.itemPage2 ._cinema-ctn ._details h2 {
+  margin: 0px;
+}
+.itemPage2 ._cinema-ctn ._details {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 1em 1.5em;
+}
+
+.itemPage2 ._general-info-ctn h2 {
+  margin: 0px 0px 0px 2em;
+  color: #191919;
+}
+.itemPage2 ._general-info-ctn {
+  color: #191919;
+  padding: 0px 5vw;
+}
+
+
+.itemPage2 ._comments-pay-ctn{
+    /* background-color: #eee; */
+    color: #191919;
+    display: flex;
+}
+.itemPage2 ._comments-pay-ctn ._comments-ctn{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0px 5vw 0px 7.5vw;
+}
+.itemPage2 ._comments-pay-ctn ._pay-ctn{
+    width: 30%;
+    /* background-color: red; */
+    padding: 1vh 5vw;
+    box-sizing: border-box;
+    text-align: center;
+}   
+
+.itemPage2 ._slider-ctn{
+    width: 80%;
+    align-self: center;
+    margin-top: 7.5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ul li{
+  padding-top: 1em;
+}

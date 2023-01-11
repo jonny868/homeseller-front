@@ -1,0 +1,75 @@
+.userPage {
+  /* background-color: #191919; */
+  width: 100%;
+  min-height: 100vh;
+}
+
+.userPage ._general-container {
+  display: flex;
+  padding-left: 2.5vw;
+  justify-content: space-between;
+}
+
+/*////////////////////////////////////*/
+/*LEFT SIDE*/
+/*////////////////////////////////////*/
+.userPage ._general-container ._left-content {
+    /* background-color: crimson; */
+  width: 67.5vw;
+  /* height: 100vh; */
+  padding: 1em 0px 1em 2.5vw;
+}
+
+.userPage ._general-container ._left-content ._user-info-container {
+    /* background-color: darkmagenta; */
+    /* width: 80%; */
+    display: flex;
+    height: 35vh;
+    margin: 5vh 0px ;
+    /* padding: 7vh 0px; */
+}
+
+.userPage ._general-container ._left-content ._user-info-container ._img-div {
+    /* background-color: cornflowerblue; */
+    width: 20%;
+    padding-left: 5vw;
+    align-self: center;
+}
+.userPage
+._general-container
+._left-content
+._user-info-container
+._img-div
+._profile-picture {
+      box-shadow: 1px 1px 20px #19191968;
+      width: 100%;
+      border-radius: 200px;
+}
+
+.userPage ._general-container ._left-content ._user-info-container ._info-div {
+    /* background-color: coral; */
+    position: relative;
+    width: 60%;
+    height: 60%;
+    align-self: center;
+    margin: 0px auto;
+    color: #191919;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+/*////////////////////////////////////*/
+/*RIGHT SIDE*/
+/*////////////////////////////////////*/
+.userPage ._general-container ._right-content {
+    width: 23vw;
+    /* background-color: coral; */
+    border-left: 1px solid #191919;
+    margin-top: 5vh;
+}
+
+.userPage ._general-container ._right-content ._subtitle{
+    text-align: center;
+    color: #191919;
+}

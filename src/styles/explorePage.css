@@ -1,0 +1,83 @@
+.explorePage {
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  min-height: 100vh;
+  overflow-x: hidden;
+  /* position: absolute; */
+}
+
+.explorePage ._contentContainer {
+  display: flex;
+  padding: 0px 5vw;
+}
+.explorePage ._contentContainer ._filter {
+  /* background-color: coral; */
+  background-color: inherit;
+  width: 15vw;
+  /* height: 90vh; */
+  padding: 0px 2.5vw;
+  box-sizing: border-box;
+  /* margin-top: 1vh; */
+}
+
+.explorePage ._contentContainer ._filter h2 {
+  color: #191919;
+  /* text-align: center; */
+}
+
+.explorePage ._contentContainer ._result {
+  /* background-color: #191919; */
+  width: 72.5vw;
+  /* height: 190vh; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 3.5vw;
+}
+
+.explorePage ._contentContainer ._result .card{
+  cursor: pointer;
+  width: 75%;
+  font-size: .9em;
+  transition: transform .2s ease-in-out;
+}
+.explorePage ._contentContainer ._result .card:hover{
+  transform: scale(1.05);
+}
+.filter {
+  width: 80%;
+  color: #191919ad;
+  display: flex;
+}
+
+.filter:hover{
+  color: #191919;
+}
+
+.filter ._circle {
+  cursor: pointer;
+  width: 0.5vw;
+  height: 0.5vw;
+  padding: 0.1vw;
+  border: 1px solid #191919;
+  border-radius: 50px;
+  align-self: center;
+  margin-right: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.filter ._circle ._dot {
+  background-color: #191919;
+  border-radius: 50px;
+  width: 0.4vw;
+  height: 0.4vw;
+  align-self: center;
+}
+
+.filter .name {
+  margin: 0.5em 0px;
+  cursor: pointer;
+}

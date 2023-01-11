@@ -1,0 +1,124 @@
+.back{
+    color: #191919;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.searchPage{
+    /* height: 200vh; */
+    min-height: 100vh;
+    overflow-x: hidden;
+    /* background-color: #191919; */
+}
+
+.topContent{
+    /* position: relative; */
+    font-family: Roboto;
+    height: 75vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.topContent ._backImage{
+    object-fit: cover;
+    width: 100vw;
+    position: absolute;
+    opacity: .75;
+    z-index: 0;
+}
+
+.topContent ._header{
+    color: #eee;
+    position: relative;
+    /* background-color: coral; */
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+.topContent ._header ._logo{
+    height: 15vh;
+    margin-left: 1vw;
+}   
+.topContent ._header ._links{
+    display: flex;
+    /* background-color: coral; */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    margin-right: 5vw;
+}
+.topContent ._header ._links p{
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.topContent ._searchContainer{
+    color: #eee;
+    position: relative;
+    width: 45vw;
+    margin: 2vh auto 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topContent ._searchContainer ._mainText{
+    font-size: 2.5em;
+    text-shadow: 4px 4px 10px #000000;
+}
+
+.topContent ._searchContainer ._searchBar{
+    height: 7.5vh;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #00000071;
+    border: none;
+    box-sizing: border-box;
+    padding: 0px 1em;
+    font-size: 1.2em;
+    color: #eee;
+}
+
+.topContent ._searchContainer ._sugestText{
+    font-size: 1em;
+    text-align: left;
+    margin-left: 2em;
+    text-shadow: 2px 2px 2px #191919;
+}
+
+::-webkit-input-placeholder {
+    color: #eee;
+}
+
+._bannerContainer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 40vh;
+    /* margin-bottom: 10vh; */
+    /* background-image: url(../images/Banner1.png); */
+}
+
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+._bannerContainer ._text{
+    color: #191919;
+    font-size: 2.2em;
+    z-index: 100;
+    width: 35%;
+    /* margin: 11vh 0px 0px 15vw; */
+    align-self: center;
+    margin-left: 15%;
+}
+.small-banner{
+    height: 30vh !important;
+}

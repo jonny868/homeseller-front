@@ -1,0 +1,193 @@
+.sliderBar {
+  margin: 5vh 0px;
+  color: #191919;
+}
+
+.sliderBar ._title {
+  margin-left: 5vw;
+}
+
+.sliderBar ._container {
+  /* transform: scale(0.9); */
+  display: flex;
+  /* height: 42vh; */
+  /* background-color: coral; */
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+._arrowLeft,
+._arrowLeft-sm,
+._arrowRight,
+._arrowRight-sm {
+  font-size: 3em;
+  color: #191919;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+._arrowLeft:hover,
+._arrowLeft-sm:hover,
+._arrowRight:hover,
+._arrowRight-sm:hover {
+  transform: scale(1.2);
+}
+
+._arrowLeft,._arrowLeft-sm {
+  padding-right: 1.5vw;
+}
+._arrowRight,._arrowRight-sm {
+  padding-left: 1.5vw;
+}
+
+.sliderBar ._container ._slide {
+  width: 84.5vw;
+  height: 100%;
+  /* background-color: coral; */
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+._cards {
+  /* width: 200%; */
+  display: flex;
+  padding-left: 1vw;
+  /* margin-left: -100%; */
+  transition: all 1s ease-in-out;
+}
+
+.mySwiper{
+  margin: 5vh 0px 0px 0px;
+  box-sizing: border-box;
+  padding: 0px 1vw !important;
+  /* width: 85%; */
+}
+
+.card {
+  font-size: .8em;
+  /* background-color: coral; */
+  /* margin-right: 3vw; */
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  /* width: 14vw; */
+  margin-bottom: 7vh;
+  box-shadow: 5px 5px 8px #00000048;
+  box-sizing: border-box;
+  border-radius: 5px;
+  /* background-color: #fdfdfd; */
+  color: #191919;
+  cursor: pointer;
+}
+
+
+._result .card ._picture{
+  width: 100%;
+  /* transform: scale(0.); */
+  
+}
+
+.card ._picture {
+  border-radius: 5px 5px 0px 0px;
+  width: 100%;
+  height: 55%;
+}
+
+.card ._content {
+  display: flex;
+  flex-direction: column;
+  color: #191919;
+  padding: .5em 1em;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.card ._content ._details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card ._content ._details ._stars {
+  width: 40%;
+  align-self: flex-end;
+  margin-bottom: 0.5vh;
+}
+
+.card ._content ._price {
+  font-size: 1.3em;
+  margin: 1vh 0px 0px;
+}
+
+._rate {
+  /* margin: 1vh 0px 0px; */
+}
+.card ._content ._description {
+  /* padding: 0px 1em; */
+}
+
+/*Slider Colum*/
+
+.sliderColum {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sliderColum .card {
+  margin: 4vh 0px;
+  display: flex;
+  flex-direction: column;
+  /* height: 40vh; */
+  width: 13vw;
+  box-shadow: 5px 5px 8px #00000048;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fdfdfd;
+  color: #191919;
+  font-size: 0.8em;
+}
+
+/*MINI SLIDER*/
+
+.mini-slideBar {
+  /* background-color: coral; */
+  width: 100%;
+  /* height: 10vh; */
+  color: #191919;
+  margin: 0px auto;
+}
+
+.mini-slideBar ._title-sm {
+}
+.mini-slideBar ._container-sm {
+  display: flex;
+  width: 100%;
+  /* background-color: cornflowerblue; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mini-slideBar ._container-sm ._slide-sm {
+  /* background-color: red; */
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  position: relative;
+  height: 40vh;
+}
+
+.mini-slideBar ._container-sm ._slide-sm ._cards-sm {
+  display: flex;
+  transition: all 1s ease-in-out;
+}
+
+.mini-slideBar .card {
+  margin-right: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  height: 37vh;
+  width: 13vw;
+  box-shadow: 5px 5px 8px #00000048;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fdfdfd;
+}
